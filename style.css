@@ -1,0 +1,162 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+}
+.nav-bottom{
+    
+    height: 70%;
+    display: flex;
+    align-items: self-end;
+    width: 100%;
+}
+.icons-nav{
+    width: 100%;
+    
+    font-size: large;
+}
+.parent{
+    position: relative;
+    overflow: hidden;
+   
+    cursor: pointer;
+}
+.child img{
+    border-radius: 20px;
+}
+.mumm{
+   display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: #f9f6f6ca;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 93%;
+    opacity: 0.8;
+    border-radius: 20px;
+    top: 100%;
+}
+.parent:hover .mumm{
+   top: 0;
+}
+.mumm p{
+    font-size: 1.75rem;
+    opacity: 1;
+    color: black;
+    font-weight: 500;
+}
+.search{
+    width: 40%;
+    background-color: black;
+}
+.humm{
+    transition: all 0.5s;
+    background-color: #f9f6f6ca;
+    height: 80%;
+    position: absolute;
+    top: 0px;
+    width: 93%;
+    opacity: 0.8;
+    border-radius: 20px;
+    top: 100%;
+    
+}
+.parent:hover .humm{
+    top: 0;
+ }
+ .child2 p{
+    color: #373636;
+ }
+ .child2 img{
+    border-radius: 20px;}
+    .humm h4{
+        color: #0D0D0D;
+    }
+    .items h5{
+        cursor: pointer;
+    }
+    .categories{
+        display: none;
+    }
+    .one{
+        display: block;
+    }
+    .sora{
+        border-radius: 20px;
+    }
+.details{
+    display: none;
+}
+#types-parent{
+    display: none;
+}
+.house span{
+    width: 100%;
+    font-size: 80;
+    cursor: pointer;
+}
+.homee{
+    display: none;
+}
+#countrylist{
+    display: none;
+}
+.oneonefood{
+    height: 200px;
+    overflow: hidden;
+}
+#chicken{
+    display: none;
+    cursor: pointer;
+}
+.final-gredient{
+    display: none;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: #f9f6f6ca;
+    position: absolute;
+    top: 0px;
+    opacity: 0.8;
+    border-radius: 20px;
+    top: 100%;
+    color: #0D0D0D;
+}
+.imageleyar:hover .layer{
+    top: 0%;
+}
+.imageleyar{
+    position: relative;
+    overflow: hidden;
+}
+.searching{
+    display: none;
+}
+#searching{
+    display: none;
+}
+.name-valid{
+    display: none;
+}
+.email-valid{
+    display: none;
+}
+.phone-valid{
+    display: none;
+}
+.age-valid{
+    display: none;
+}
+.formm{
+    display: none;
+}
+.repassword-valid{
+    display: none;
+}
+.password-valid{
+    display: none;
+}
